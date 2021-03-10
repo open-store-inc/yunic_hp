@@ -1,0 +1,271 @@
+@media(max-width:767px) {
+    .header{
+        height: 820px;
+    }
+    .header-title {
+        
+    }
+    .header-title h3 {
+        font-size: 25px;
+        padding:25% 0;
+    }
+    .header-me {
+        width: 100%;
+    }
+    .header-img{
+
+    }
+    .header-img img{
+        height: 800px;
+    }
+    .con1-1{
+        width: 100%;
+    }
+    .slide-me{
+        width: 100%;
+    }
+    .slide-me h3{
+        width: 100%;
+        font-size: 27px;
+        padding: 0;
+    }
+    .slide-me h3::after{
+    display: none;
+    }
+    .slide-me h3::before{
+    display: none;
+    }
+    .top-logo {
+        display: block;
+        padding-top: 10%;
+    }
+    .con3-1{
+        width: 100%;
+    }
+
+    .manage-top p{
+        width: 100%;
+        border-top:2px solid #005aa4;
+        border-bottom:2px solid #005aa4;
+    }
+    .bottum{
+        width: 100%;
+        padding: 5% 0;
+        text-align: center;
+        margin-top: 3%;
+    }
+    .top-img {
+        width: 100%;
+    }
+    .top-contact {
+        width: 100%;
+    }
+    .top-contact ul {
+        padding: 2% 0;
+    }
+    .top1-me P {
+        font-size: 15px;
+    }
+    .main{
+        margin: 30% 0;
+    }
+    .main-title h3 {
+        font-size: 25px;
+    }
+    .main-title h3::before, .main-title h3::after {
+        width: 10%;
+    }
+    .main-co {
+        display: block;
+    }
+    .main-co1 {
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .main1{
+        display: none;
+    }
+    .main1-co {
+        display: block;
+        width: 100%;
+        
+    }
+    .main1-me {
+        width: 100%;
+    }
+    .main1-me h3 {
+        font-size: 25px;
+    }
+    .main1-img {
+        width: 100%;
+        
+    }
+    .main1-img img {
+        width: 100%;
+    }
+    /*スマホ専用*/
+    .main2{
+        display: block;
+    }
+    .main2-co {
+        display: block;
+        width: 100%;
+        
+    }
+    .main2-me {
+        width: 100%;
+    }
+    .main2-me h3 {
+        font-size: 25px;
+    }
+    .main2-img {
+        width: 100%;
+        
+    }
+    .main2-img img {
+        width: 100%;
+    }
+    .foom {
+        text-align: center;
+        width: 100%;
+        padding: 2% 0;
+        margin-bottom: 8%;
+    }
+    
+    .foom p {}
+    
+    .foom span {}
+    
+    .foom1 {
+        text-align: center;
+        padding: 2% 0;
+        margin-bottom: 8% ;
+        
+    }
+    
+    .foom1 p {}
+    
+    .foom1 span {}
+    
+    .tell {
+        text-align: center;
+        padding: 2% 0;
+        margin: 8% 0;
+        
+    }
+    
+    .contact-title h3{
+padding: 0;
+font-size: 30px;
+    }
+    
+    .contact-title h3::before{
+        display: none;
+    }
+    .contact-title h3::after{
+        display: none;
+    }
+    .tell p {}
+    
+    .tell span {}
+    
+    .contact{
+        display: block;
+        width: 100%;
+    }
+    .gaiyou {
+        text-align: center;
+        padding: 2% 0;
+        margin-top: 8% ;
+        width: 100%;
+    }
+    
+    .gaiyou img {
+        width: 100%;
+    }
+    
+    .footer {
+        padding: 2% 0;
+        margin-top: 1%;
+        
+    }
+    
+    .footer p {
+        text-align: right;
+        margin-right: 2%;
+    }
+
+    .consult1{
+        margin: 0%;
+        margin: 20% 0;
+    }
+    .consult1-top h3 {
+        width: 100%;
+    }
+    .course{
+        width: 100%;
+        margin: 5% 0;
+        padding: 40px 0;
+    }
+    .consult{
+        display:block;
+        width: 100%;
+    }
+    
+    .consult-me{
+        width: 100%;
+        
+    }
+    .consult-img{
+        width: 100%;
+    }
+    .consult-me h3{
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        
+    }
+    .consult-me span{
+        text-align: center;
+        display: none;
+    }
+    .con-course{
+        display: block;
+    }
+    .consult1{
+        margin: 0%;
+        margin: 20% 0;
+    }
+    .consult1-top h3 {
+        width: 100%;
+    }
+    .course{
+        width: 100%;
+        margin: 5% 0;
+        padding: 40px 0;
+    }
+    .slideContents p{
+        top:50%;
+        width: 90%;
+    }
+
+    .manege-me p {
+        margin: 0;
+    }
+    .manege-me {
+        display: block;
+        margin-left: 0;
+    }
+    .manege-me img {
+        width: 100%;
+    }
+    .news-me {
+        width: 100%;
+        margin-left: 0;
+    }
+    .news-img{
+        width: 100%;
+    }
+    
+
+}
