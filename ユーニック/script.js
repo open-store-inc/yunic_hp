@@ -1,3 +1,30 @@
+$('#header-course').click(
+    function () {
+        $('#header-toggle').slideToggle();
+        $('#header-toggle').toggleClass("active");
+    });
+
+
+$(function () {
+    var pagetop = $('.page-top');
+    // ボタン非表示
+    pagetop.hide();
+
+    // 80px スクロールしたらボタン表示
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 80) {
+            pagetop.fadeIn(300);
+        } else {
+            pagetop.fadeOut(300);
+        }
+    });
+
+    // クリックしたらTOPへ戻る
+    pagetop.click(function () {
+        $('ody, html').animate({ scrollTop: 0 }, 500);
+        return false;
+    });
+});
 
 
 $(window).scroll(function () {
@@ -121,23 +148,23 @@ $(function () {
 });
 
 
-$(document).ready(function() {
+$(document).ready(function () {
     setInterval(rotateImages, 4000);
-  });
-  
-  function rotateImages(){
+});
+
+function rotateImages() {
     var curPhoto = $("#photoShow div.current");
     var nxtPhoto = curPhoto.next();
-    
-    if(nxtPhoto.length == 0){
-      nxtPhoto = $("#photoShow div:first"); 
+
+    if (nxtPhoto.length == 0) {
+        nxtPhoto = $("#photoShow div:first");
     }
-    
+
     curPhoto.removeClass("current").addClass("previous");
-    nxtPhoto.css({opacity: 0.0}).addClass("current").animate({opacity: 1.0}, 1000,
-                                                             
-    function(){
-      curPhoto.removeClass("previous");
-    });
-  }
-  
+    nxtPhoto.css({ opacity: 0.0 }).addClass("current").animate({ opacity: 1.0 }, 1000,
+
+        function () {
+            curPhoto.removeClass("previous");
+        });
+}
+
