@@ -1,72 +1,170 @@
+/*ipad pro*/
+
+@media(max-width:1024px) {
+    header {
+        height: 60vh;
+    }
+    .header-nav {
+        margin-left: 30px;
+        display: none;
+    }
+    .header-title {
+        height: 62vh;
+    }
+    .header-title h3 {
+        padding-top: 35%;
+    }
+    .slider ul li {
+        margin-top: 35%;
+    }
+    .header-bo {
+        margin-top: 45%;
+    }
+    .header-bo a {
+        padding: 6% 20%;
+    }
+    .page-top{
+        display: none;
+    }
+}
+
+/*ipad*/
+
+@media(max-width:768px) {
+    header {
+        height: 80vh;
+    }
+    .header-nav {
+        margin-left: 30px;
+        display: none;
+    }
+    .header-title h3 {
+        padding-top: 50%;
+        font-size: 30px;
+    }
+    .slider img {
+        width: 60%;
+    }
+    .slider ul li {
+        margin-top: 40%;
+    }
+    .slide-me h3{
+        font-size: 35px;
+    }
+    .header-bo {
+        margin-top: 60%;
+    }
+    .header-bo a {
+        padding: 6% 13%;
+        margin-left: 5%;
+    }
+    .header-title {
+        height: 80vh;
+    }
+    .gaiyou p {
+        width: 90%;
+    }
+    .page-top{
+        display: none;
+    }
+}
+
+/*ベース*/
+
 @media(max-width:767px) {
-    .header{
+    header {
+        height: 98vh;
+    }
+    .header {
         height: 820px;
     }
     .header-title {
-        
+        margin-left: 0;
+        height: 95vh;
     }
     .header-title h3 {
         font-size: 25px;
-        padding:25% 0;
+        box-shadow: none;
+    }
+    .header-title span {
+        box-shadow: 10px 20px 25px rgb(0 0 0 / 25%);
     }
     .header-me {
         width: 100%;
     }
-    .header-img{
-
-    }
-    .header-img img{
+    .header-img {}
+    .header-img img {
         height: 800px;
     }
-    .con1-1{
+    .header-bo {
+        margin-top: 105%;
+    }
+    .header-bo a {
+        margin-left: 0;
+    }
+    .con1-1 {
         width: 100%;
     }
-    .slide-me{
+    .slider ul li {
+        margin-top: 100%;
+    }
+    .slider img {
         width: 100%;
     }
-    .slide-me h3{
+    .slide-me {
+        width: 100%;
+    }
+    .slide-me h3 {
         width: 100%;
         font-size: 27px;
         padding: 0;
     }
-    .slide-me h3::after{
-    display: none;
+    .slide-me h3::after {
+        display: none;
     }
-    .slide-me h3::before{
-    display: none;
+    .slide-me h3::before {
+        display: none;
     }
     .top-logo {
-        display: block;
         padding-top: 10%;
+        justify-content: space-around;
     }
-    .con3-1{
+    .con3-1 {
         width: 100%;
     }
-
-    .manage-top p{
+    .manage-top p {
         width: 100%;
-        border-top:2px solid #005aa4;
-        border-bottom:2px solid #005aa4;
+        border-top: 2px solid #005aa4;
+        border-bottom: 2px solid #005aa4;
     }
-    .bottum{
+    .bottum {
         width: 100%;
         padding: 5% 0;
         text-align: center;
         margin-top: 3%;
     }
     .top-img {
-        width: 100%;
+        width: 50%;
+        padding-left: 5%;
     }
     .top-contact {
-        width: 100%;
+        display: none;
     }
     .top-contact ul {
         padding: 2% 0;
     }
+    .header-nav {
+        display: block;
+        width: 50%;
+    }
+    .header-nuv ul {}
+    .header-nav ul li {
+        width: 100%;
+    }
     .top1-me P {
         font-size: 15px;
     }
-    .main{
+    .main {
         margin: 30% 0;
     }
     .main-title h3 {
@@ -82,13 +180,12 @@
         width: 100%;
         margin-bottom: 8%;
     }
-    .main1{
+    .main1 {
         display: none;
     }
     .main1-co {
         display: block;
         width: 100%;
-        
     }
     .main1-me {
         width: 100%;
@@ -98,19 +195,18 @@
     }
     .main1-img {
         width: 100%;
-        
     }
     .main1-img img {
-        width: 100%;
+        width: 90%;
+        margin-top: 5%;
     }
     /*スマホ専用*/
-    .main2{
+    .main2 {
         display: block;
     }
     .main2-co {
         display: block;
         width: 100%;
-        
     }
     .main2-me {
         width: 100%;
@@ -120,10 +216,10 @@
     }
     .main2-img {
         width: 100%;
-        
     }
     .main2-img img {
-        width: 100%;
+        width: 90%;
+        margin-top: 4%;
     }
     .foom {
         text-align: center;
@@ -131,124 +227,103 @@
         padding: 2% 0;
         margin-bottom: 8%;
     }
-    
     .foom p {}
-    
     .foom span {}
-    
     .foom1 {
         text-align: center;
         padding: 2% 0;
-        margin-bottom: 8% ;
-        
+        margin-bottom: 8%;
     }
-    
     .foom1 p {}
-    
     .foom1 span {}
-    
     .tell {
         text-align: center;
         padding: 2% 0;
         margin: 8% 0;
-        
     }
-    
-    .contact-title h3{
-padding: 0;
-font-size: 30px;
+    .contact-title h3 {
+        padding: 0;
+        font-size: 30px;
     }
-    
-    .contact-title h3::before{
+    .contact-title h3::before {
         display: none;
     }
-    .contact-title h3::after{
+    .contact-title h3::after {
         display: none;
     }
     .tell p {}
-    
     .tell span {}
-    
-    .contact{
+    .contact {
         display: block;
         width: 100%;
     }
     .gaiyou {
         text-align: center;
         padding: 2% 0;
-        margin-top: 8% ;
+        margin-top: 8%;
         width: 100%;
     }
-    
     .gaiyou img {
         width: 100%;
     }
-    
     .footer {
         padding: 2% 0;
         margin-top: 1%;
-        
     }
-    
     .footer p {
         text-align: right;
         margin-right: 2%;
     }
-
-    .consult1{
+    .consult1 {
         margin: 0%;
         margin: 20% 0;
     }
     .consult1-top h3 {
         width: 100%;
     }
-    .course{
+    .course {
         width: 100%;
         margin: 5% 0;
         padding: 40px 0;
     }
-    .consult{
-        display:block;
+    .consult {
+        display: block;
         width: 100%;
     }
-    
-    .consult-me{
-        width: 100%;
-        
-    }
-    .consult-img{
+    .consult-me {
         width: 100%;
     }
-    .consult-me h3{
+    .consult-img {
+        width: 100%;
+    }
+    .consult-me h3 {
         width: 100%;
         font-size: 25px;
         text-align: center;
-        
     }
-    .consult-me span{
+    .consult-me span {
         text-align: center;
         display: none;
     }
-    .con-course{
+    .con-course {
         display: block;
     }
-    .consult1{
+    .consult1 {
         margin: 0%;
         margin: 20% 0;
     }
     .consult1-top h3 {
         width: 100%;
     }
-    .course{
+    .course {
         width: 100%;
         margin: 5% 0;
         padding: 40px 0;
     }
-    .slideContents p{
-        top:50%;
+    .slideContents p {
+        top: 50%;
         width: 90%;
     }
-
     .manege-me p {
         margin: 0;
     }
@@ -263,9 +338,920 @@ font-size: 30px;
         width: 100%;
         margin-left: 0;
     }
-    .news-img{
+    .news-img {
         width: 100%;
     }
-    
+    .con {
+        width: 100%;
+    }
+    .con2 {
+        width: 100%;
+    }
+    .con3 {
+        width: 100%;
+    }
+    .con4 {
+        width: 100%;
+    }
+    .con5 {
+        width: 100%;
+    }
+    .page-top{
+        display: none;
+    }
+}
 
+/*iphone6.7.8plus*/
+
+@media(max-width:415px) {
+    header {
+        height: 98vh;
+    }
+    .header {
+        height: 820px;
+    }
+    .header-title {
+        margin-left: 0;
+        height: 95vh;
+    }
+    .header-title h3 {
+        font-size: 25px;
+        box-shadow: none;
+    }
+    .header-title h3 {
+        padding-top: 40%;
+    }
+    .header-title span {
+        box-shadow: 10px 20px 25px rgb(0 0 0 / 25%);
+    }
+    .header-me {
+        width: 100%;
+    }
+    .header-img {}
+    .header-img img {
+        height: 800px;
+    }
+    .header-bo {
+        margin-top: 88%;
+    }
+    .header-bo a {
+        margin-left: 0;
+    }
+    .con1-1 {
+        width: 100%;
+    }
+    .slider ul li {
+        margin-top: 80%;
+    }
+    .slider img {
+        width: 100%;
+    }
+    .slide-me {
+        width: 100%;
+    }
+    .slide-me h3 {
+        width: 100%;
+        font-size: 24px;
+        padding: 3% 0;
+    }
+    .slide-me h3::after {
+        display: none;
+    }
+    .slide-me h3::before {
+        display: none;
+    }
+    .top-logo {
+        padding-top: 10%;
+        justify-content: space-around;
+    }
+    .con3-1 {
+        width: 100%;
+    }
+    .manage-top p {
+        width: 100%;
+        border-top: 2px solid #005aa4;
+        border-bottom: 2px solid #005aa4;
+        font-size: 30px;
+    padding: 3% 0;
+    }
+    .bottum {
+        width: 100%;
+        padding: 5% 0;
+        text-align: center;
+        margin-top: 3%;
+    }
+    .top-img {
+        width: 50%;
+        padding-left: 5%;
+    }
+    .top-contact {
+        display: none;
+    }
+    .top-contact ul {
+        padding: 2% 0;
+    }
+    .header-nav {
+        display: block;
+        width: 50%;
+    }
+    .header-nuv ul {}
+    .header-nav ul li {
+        width: 100%;
+    }
+    .top1-me P {
+        font-size: 15px;
+    }
+    .main {
+        margin: 30% 0;
+    }
+    .main-title h3 {
+        font-size: 25px;
+    }
+    .main-title h3::before, .main-title h3::after {
+        width: 10%;
+    }
+    .main-co {
+        display: block;
+    }
+    .main-co1 {
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .main1 {
+        display: none;
+    }
+    .main1-co {
+        display: block;
+        width: 100%;
+    }
+    .main1-me {
+        width: 100%;
+    }
+    .main1-me h3 {
+        font-size: 25px;
+    }
+    .main1-img {
+        width: 100%;
+    }
+    .main1-img img {
+        width: 90%;
+        margin-top: 5%;
+    }
+    /*スマホ専用*/
+    .main2 {
+        display: block;
+    }
+    .main2-co {
+        display: block;
+        width: 100%;
+    }
+    .main2-me {
+        width: 100%;
+    }
+    .main2-me h3 {
+        font-size: 25px;
+    }
+    .main2-img {
+        width: 100%;
+    }
+    .main2-img img {
+        width: 90%;
+        margin-top: 4%;
+    }
+    .foom {
+        text-align: center;
+        width: 100%;
+        padding: 2% 0;
+        margin-bottom: 8%;
+    }
+    .foom p {}
+    .foom span {}
+    .foom1 {
+        text-align: center;
+        padding: 2% 0;
+        margin-bottom: 8%;
+    }
+    .foom1 p {}
+    .foom1 span {}
+    .tell {
+        text-align: center;
+        padding: 2% 0;
+        margin: 8% 0;
+    }
+    .contact-title h3 {
+        padding: 0;
+        font-size: 30px;
+        padding: 3% 1%;
+    }
+    .contact-title h3::before {
+        display: none;
+    }
+    .contact-title h3::after {
+        display: none;
+    }
+    .tell p {}
+    .tell span {}
+    .contact {
+        display: block;
+        width: 100%;
+    }
+    .gaiyou {
+        text-align: center;
+        padding: 2% 0;
+        margin-top: 8%;
+        width: 100%;
+    }
+    .gaiyou img {
+        width: 100%;
+    }
+    .footer {
+        padding: 2% 0;
+        margin-top: 1%;
+    }
+    .footer p {
+        text-align: center;
+        margin-right: 2%;
+    }
+    .consult1 {
+        margin: 0%;
+        margin: 20% 0;
+    }
+    .consult1-top h3 {
+        width: 100%;
+    }
+    .course {
+        width: 100%;
+        margin: 5% 0;
+        padding: 40px 0;
+    }
+    .consult {
+        display: block;
+        width: 100%;
+    }
+    .consult-me {
+        width: 100%;
+    }
+    .consult-img {
+        width: 100%;
+    }
+    .consult-me h3 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    .consult-me span {
+        text-align: center;
+        display: none;
+    }
+    .con-course {
+        display: block;
+    }
+    .consult1 {
+        margin: 0%;
+        margin: 20% 0;
+    }
+    .consult1-top h3 {
+        width: 100%;
+    }
+    .course {
+        width: 100%;
+        margin: 5% 0;
+        padding: 40px 0;
+    }
+    .slideContents p {
+        top: 50%;
+        width: 90%;
+    }
+    .manege-me p {
+        margin: 0;
+    }
+    .manege-me {
+        display: block;
+        margin-left: 0;
+    }
+    .manege-me img {
+        width: 100%;
+    }
+    .news-me {
+        width: 100%;
+        margin-left: 0;
+    }
+    .news-img {
+        width: 100%;
+    }
+    .con {
+        width: 100%;
+    }
+    .con2 {
+        width: 100%;
+    }
+    .con3 {
+        width: 100%;
+    }
+    .con4 {
+        width: 100%;
+    }
+    .con5 {
+        width: 100%;
+    }
+    .page-top{
+        display: none;
+    }
+}
+
+/*iphoneX*/
+
+@media(max-width:380px) {
+    header {
+        height: 98vh;
+    }
+    .header {
+        height: 820px;
+    }
+    .header-title {
+        margin-left: 0;
+        height: 95vh;
+    }
+    .header-title h3 {
+        font-size: 24px;
+        box-shadow: none;
+        padding-top: 50%;
+    }
+    .header-title span {
+        box-shadow: 10px 20px 25px rgb(0 0 0 / 25%);
+    }
+    .header-me {
+        width: 100%;
+    }
+    .header-img {}
+    .header-img img {
+        height: 800px;
+    }
+    .header-bo {
+        margin-top: 103%;
+    }
+    .header-bo a {
+        margin-left: 0;
+    }
+    .con1-1 {
+        width: 100%;
+    }
+    .slider ul li {
+        margin-top: 100%;
+    }
+    .slider img {
+        width: 100%;
+    }
+    .slide-me {
+        width: 100%;
+    }
+    .slide-me h3 {
+        width: 100%;
+        font-size: 24px;
+        padding: 3% 1%;
+    }
+    .slide-me h3::after {
+        display: none;
+    }
+    .slide-me h3::before {
+        display: none;
+    }
+    .top-logo {
+        padding-top: 10%;
+        justify-content: space-around;
+    }
+    .con3-1 {
+        width: 100%;
+    }
+    .manage-top p {
+        width: 100%;
+        border-top: 2px solid #005aa4;
+        border-bottom: 2px solid #005aa4;
+        font-size: 25px;
+        padding: 3% 0;
+    }
+    .bottum {
+        width: 100%;
+        padding: 5% 0;
+        text-align: center;
+        margin-top: 3%;
+    }
+    .top-img {
+        width: 50%;
+        padding-left: 5%;
+    }
+    .top-contact {
+        display: none;
+    }
+    .top-contact ul {
+        padding: 2% 0;
+    }
+    .header-nav {
+        display: block;
+        width: 50%;
+    }
+    .header-nuv ul {}
+    .header-nav ul li {
+        width: 100%;
+    }
+    .top1-me P {
+        font-size: 15px;
+    }
+    .main {
+        margin: 30% 0;
+    }
+    .main-title h3 {
+        font-size: 25px;
+    }
+    .main-title h3::before, .main-title h3::after {
+        width: 10%;
+    }
+    .main-co {
+        display: block;
+    }
+    .main-co1 {
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .main1 {
+        display: none;
+    }
+    .main1-co {
+        display: block;
+        width: 100%;
+    }
+    .main1-me {
+        width: 100%;
+    }
+    .main1-me h3 {
+        font-size: 25px;
+    }
+    .main1-img {
+        width: 100%;
+    }
+    .main1-img img {
+        width: 90%;
+        margin-top: 5%;
+    }
+    .main1-title h3{
+        font-size: 30px;
+    }
+    /*スマホ専用*/
+    .main2 {
+        display: block;
+    }
+    .main2-co {
+        display: block;
+        width: 100%;
+    }
+    .main2-me {
+        width: 100%;
+    }
+    .main2-me h3 {
+        font-size: 25px;
+    }
+    .main2-img {
+        width: 100%;
+    }
+    .main2-img img {
+        width: 90%;
+        margin-top: 4%;
+    }
+    .foom {
+        text-align: center;
+        width: 100%;
+        padding: 2% 0;
+        margin-bottom: 8%;
+    }
+    .foom p {}
+    .foom span {}
+    .foom1 {
+        text-align: center;
+        padding: 2% 0;
+        margin-bottom: 8%;
+    }
+    .foom1 p {}
+    .foom1 span {}
+    .tell {
+        text-align: center;
+        padding: 2% 0;
+        margin: 8% 0;
+    }
+    .contact-title h3 {
+        padding: 0;
+        font-size: 25px;
+    padding: 3% 4%;
+    }
+    .contact-title h3::before {
+        display: none;
+    }
+    .contact-title h3::after {
+        display: none;
+    }
+    .tell p {}
+    .tell span {}
+    .contact {
+        display: block;
+        width: 100%;
+    }
+    .gaiyou {
+        text-align: center;
+        padding: 2% 0;
+        margin-top: 8%;
+        width: 100%;
+    }
+    .gaiyou img {
+        width: 100%;
+    }
+    .footer {
+        padding: 2% 0;
+        margin-top: 1%;
+    }
+    .footer p {
+        text-align: right;
+        margin-right: 2%;
+    }
+    .consult1 {
+        margin: 0%;
+        margin: 20% 0;
+    }
+    .consult1-top h3 {
+        width: 100%;
+    }
+    .course {
+        width: 100%;
+        margin: 5% 0;
+        padding: 40px 0;
+    }
+    .consult {
+        display: block;
+        width: 100%;
+    }
+    .consult-me {
+        width: 100%;
+    }
+    .consult-img {
+        width: 100%;
+    }
+    .consult-me h3 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    .consult-me span {
+        text-align: center;
+        display: none;
+    }
+    .con-course {
+        display: block;
+    }
+    .consult1 {
+        margin: 0%;
+        margin: 20% 0;
+    }
+    .consult1-top h3 {
+        width: 100%;
+    }
+    .course {
+        width: 100%;
+        margin: 5% 0;
+        padding: 40px 0;
+    }
+    .slideContents p {
+        top: 50%;
+        width: 90%;
+    }
+    .manege-me p {
+        margin: 0;
+    }
+    .manege-me {
+        display: block;
+        margin-left: 0;
+    }
+    .manege-me img {
+        width: 100%;
+    }
+    .news-me {
+        width: 100%;
+        margin-left: 0;
+    }
+    .news-img {
+        width: 100%;
+    }
+    .con {
+        width: 100%;
+    }
+    .con2 {
+        width: 100%;
+    }
+    .con3 {
+        width: 100%;
+    }
+    .con4 {
+        width: 100%;
+    }
+    .con5 {
+        width: 100%;
+    }
+    .page-top{
+        display: none;
+    }
+}
+
+
+/*iphone5 5e*/
+
+@media(max-width:321px) {
+    header {
+        height: 98vh;
+    }
+    .header {
+        height: 820px;
+    }
+    .header-title {
+        margin-left: 0;
+        height: 100vh;
+    }
+    .header-title h3 {
+        font-size: 20px;
+        box-shadow: none;
+        padding-top: 45%;
+    }
+    .header-title span {
+        box-shadow: 10px 20px 25px rgb(0 0 0 / 25%);
+    }
+    .header-me {
+        width: 100%;
+    }
+    .header-img {}
+    .header-img img {
+        height: 800px;
+    }
+    .header-bo {
+        margin-top: 85%;
+    }
+    .header-bo a {
+        margin-left: 0;
+    }
+    .con1-1 {
+        width: 100%;
+    }
+    .slider ul li {
+        margin-top: 85%;
+    }
+    .slider img {
+        width: 100%;
+    }
+    .slide-me {
+        width: 100%;
+    }
+    .slide-me h3 {
+        width: 100%;
+        font-size: 20px;
+        padding: 3% 1%;
+    }
+    .slide-me h3::after {
+        display: none;
+    }
+    .slide-me h3::before {
+        display: none;
+    }
+    .top-logo {
+        padding-top: 10%;
+        justify-content: space-around;
+    }
+    .con3-1 {
+        width: 100%;
+    }
+    .manage-top p {
+        width: 100%;
+        border-top: 2px solid #005aa4;
+        border-bottom: 2px solid #005aa4;
+    }
+    .bottum {
+        width: 100%;
+        padding: 5% 0;
+        text-align: center;
+        margin-top: 3%;
+    }
+    .top-img {
+        width: 50%;
+        padding-left: 5%;
+    }
+    .top-contact {
+        display: none;
+    }
+    .top-contact ul {
+        padding: 2% 0;
+    }
+    .header-nav {
+        display: block;
+        width: 50%;
+    }
+    .header-nuv ul {}
+    .header-nav ul li {
+        width: 100%;
+    }
+    .top1-me P {
+        font-size: 15px;
+    }
+    .main {
+        margin: 30% 0;
+    }
+    .main-title h3 {
+        font-size: 25px;
+    }
+    .main-title h3::before, .main-title h3::after {
+        width: 10%;
+    }
+    .main-co {
+        display: block;
+    }
+    .main-co1 {
+        width: 100%;
+        margin-bottom: 8%;
+    }
+    .main1 {
+        display: none;
+    }
+    .main1-co {
+        display: block;
+        width: 100%;
+    }
+    .main1-me {
+        width: 100%;
+    }
+    .main1-me h3 {
+        font-size: 25px;
+    }
+    .main1-img {
+        width: 100%;
+    }
+    .main1-img img {
+        width: 90%;
+        margin-top: 5%;
+    }
+    /*スマホ専用*/
+    .main2 {
+        display: block;
+    }
+    .main2-co {
+        display: block;
+        width: 100%;
+    }
+    .main2-me {
+        width: 100%;
+    }
+    .main2-me h3 {
+        font-size: 25px;
+    }
+    .main2-img {
+        width: 100%;
+    }
+    .main2-img img {
+        width: 90%;
+        margin-top: 4%;
+    }
+    .foom {
+        text-align: center;
+        width: 100%;
+        padding: 2% 0;
+        margin-bottom: 8%;
+    }
+    .foom p {}
+    .foom span {}
+    .foom1 {
+        text-align: center;
+        padding: 2% 0;
+        margin-bottom: 8%;
+    }
+    .foom1 p {}
+    .foom1 span {}
+    .tell {
+        text-align: center;
+        padding: 2% 0;
+        margin: 8% 0;
+    }
+    .contact-title h3 {
+        padding: 0;
+        font-size: 30px;
+        padding: 3% 1%;
+    }
+    .contact-title h3::before {
+        display: none;
+    }
+    .contact-title h3::after {
+        display: none;
+    }
+    .tell p {}
+    .tell span {}
+    .contact {
+        display: block;
+        width: 100%;
+    }
+    .gaiyou {
+        text-align: center;
+        padding: 2% 0;
+        margin-top: 8%;
+        width: 100%;
+    }
+    .gaiyou p{
+        width: 100%;
+    }
+    .gaiyou img {
+        width: 100%;
+    }
+    .footer {
+        padding: 2% 0;
+        margin-top: 1%;
+    }
+    .footer p {
+        text-align:center ;
+        margin-right: 2%;
+    }
+    .consult1 {
+        margin: 0%;
+        margin: 20% 0;
+    }
+    .consult1-top h3 {
+        width: 100%;
+    }
+    .course {
+        width: 100%;
+        margin: 5% 0;
+        padding: 40px 0;
+    }
+    .consult {
+        display: block;
+        width: 100%;
+    }
+    .consult-me {
+        width: 100%;
+    }
+    .consult-img {
+        width: 100%;
+    }
+    .consult-me h3 {
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+    }
+    .consult-me span {
+        text-align: center;
+        display: none;
+    }
+    .con-course {
+        display: block;
+    }
+    .consult1 {
+        margin: 0%;
+        margin: 20% 0;
+    }
+    .consult1-top h3 {
+        width: 100%;
+    }
+    .course {
+        width: 100%;
+        margin: 5% 0;
+        padding: 40px 0;
+    }
+    .slideContents p {
+        top: 50%;
+        width: 90%;
+    }
+    .manege-me p {
+        margin: 0;
+    }
+    .manege-me {
+        display: block;
+        margin-left: 0;
+    }
+    .manege-me img {
+        width: 100%;
+    }
+    .news-me {
+        width: 100%;
+        margin-left: 0;
+    }
+    .news-img {
+        width: 100%;
+    }
+    .con {
+        width: 100%;
+    }
+    .con2 {
+        width: 100%;
+    }
+    .con3 {
+        width: 100%;
+    }
+    .con4 {
+        width: 100%;
+    }
+    .con5 {
+        width: 100%;
+    }
+    .page-top{
+        display: none;
+    }
 }
